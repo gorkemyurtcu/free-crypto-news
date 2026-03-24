@@ -1,0 +1,177 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+package-lock.json
+
+# Next.js
+.next/
+out/
+
+# Build
+dist/
+build/
+
+# MkDocs generated site
+site/
+docs/site/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Copilot instructions (personal)
+.github/copilot-instructions.md
+.vercel
+.env*.local
+
+# Archive import temp files (large datasets, caches)
+scripts/archive/.temp-import/
+.temp-import/
+*.rar
+*.csv.gz
+
+# Enrichment caches (resumable, not needed in repo)
+enrichment-*.json
+*-cache.json
+.url-cache.json
+
+# Generated audit/report files
+*-audit-report.json
+*-audit.json
+
+# Playwright test artifacts
+playwright-report/
+test-results/
+
+# Coverage reports
+coverage/
+
+# ═══════════════════════════════════════════════════════════════
+# Security — prevent accidental secret commits
+# ═══════════════════════════════════════════════════════════════
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+*.keystore
+*.secret
+.secrets/
+secrets/
+*.credentials
+.mcpregistry_*
+service-account*.json
+firebase-adminsdk*.json
+gcloud-*.json
+
+.mcpregistry_github_token
+
+
+.dockerignore
+.editorconfig
+.env.example
+.gitattributes
+CHANGELOG.md
+Dockerfile
+Dockerfile.ws
+GEMINI.md
+Procfile
+Screenshot 2026-03-01 at 8.33.25 AM.png
+Screenshot 2026-03-01 at 8.33.35 AM.png
+Untitled design.png
+alibaba-openapi.json
+casaos-app.yaml
+docker-compose.observability.yml
+docker-compose.scale.yml
+docker-compose.yml
+drizzle.config.ts
+eslint.config.mjs
+humans.txt
+images-1.jpg
+instrumentation.ts
+knip.json
+lighthouse-budget.json
+logo-1024.png
+logo.png
+logo.svg
+middleware.ts
+mkdocs.yml
+next.config.analyzer.js
+next.config.js
+nginx.conf
+package.json
+patch-next-write-atomic.js
+playwright.config.ts
+playwright.errors.config.ts
+pnpm-lock.yaml
+pnpm-workspace.yaml
+portainer-template.json
+postcss.config.js
+railway.json
+render.yaml
+s.png
+server.json
+smithery.yaml
+tailwind.config.js
+tsconfig.json
+uh.md
+unraid-template.xml
+vercel.md
+vitest.config.ts
+vitest.setup.ts
+ws-server.js
+
+.data/
+.do/
+.git/
+.next/
+.storybook/
+archive/
+content/
+contracts/
+data/
+e2e/
+infra/
+mcp/
+messages/
+mobile/
+node_modules/
+postman/
+profile-readme/
+prompts/
+public/
+raycast/
+scripts/
+sdk/
+site/
+skills/
+src/
+telegram/
+terminal/
+
